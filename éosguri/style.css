@@ -1,0 +1,36 @@
+*{   
+    margin: 0px;
+}
+html{
+    font-family: 'Josefin Sans', sans-serif;    
+}
+.logo{
+    color: red;
+    display: flex;
+    justify-content: space-between;
+    font-size: 5rem;
+    width: 20vw;
+    font-family: 'Tilt Prism', cursive;
+}
+#é{
+    color: rgb(38, 161, 0);
+    
+}
+#guri{
+    color: rgb(202, 216, 0);
+}
+.header{
+    padding: 1rem;
+    color: white;
+    display: flex;
+    background-color: rgb(32, 32, 32);
+    justify-content: space-between;
+}
+.itens{
+    align-items: center ;
+    width: 35vw;
+    margin-right: 3rem;
+    justify-content: space-between;
+    font-size: 2rem;
+    display: flex;
+}
