@@ -1,15 +1,22 @@
 *{   
-    margin: 0px;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    
 }
 html{
+    
     font-family: 'Josefin Sans', sans-serif;    
 }
+body::-webkit-scrollbar {
+    width: 0px;               /* width of the entire scrollbar */
+  }
 .logo{
     color: red;
     display: flex;
     justify-content: space-between;
     font-size: 5rem;
-    width: 20vw;
+    width: 25vw;
     font-family: 'Tilt Prism', cursive;
 }
 #é{
@@ -20,6 +27,8 @@ html{
     color: rgb(202, 216, 0);
 }
 .header{
+    width: 100vw;
+    
     padding: 1rem;
     color: white;
     display: flex;
@@ -34,3 +43,64 @@ html{
     font-size: 2rem;
     display: flex;
 }
+
+.main1{
+    display: flex;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(18, 18, 18);
+    flex-direction: column;
+}
+.section{
+    width: 100vw;
+    display: flex;
+}
+.galery{
+    margin-top: 5rem;
+    width: 100vw;
+    height: 15rem;
+    position: relative;
+    display: flex;
+    overflow: auto;
+    
+}
+.galery::-webkit-scrollbar {
+    width: 0px;               /* width of the entire scrollbar */
+  }
+.videos{
+    height: 100%;
+    position: sticky;
+    left: 0;
+    flex-shrink: 0;
+    object-fit: cover;
+    scroll-behavior: smooth;
+    margin: 0 1rem;
+}
+
+.arrow-right{
+    color: white;
+    cursor: pointer;
+    border: none;
+    font-size: 2rem;
+    background: linear-gradient(to right,transparent 0%,black 200%);
+    position: relative;
+    height: 100%;
+    width: 5%;
+}
+.arrow-left{
+    color: white;
+    cursor: pointer;
+    border: none;
+    font-size: 2rem;
+    background: linear-gradient(to left,transparent 0%,black 200%);
+    position: relative;
+    height: 100%;
+    width: 5%;
+}
+
+
+
+
+
+
