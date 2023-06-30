@@ -70,7 +70,7 @@ body::-webkit-scrollbar {
   }
 .videos{
     height: 100%;
-    position: sticky;
+    
     left: 0;
     flex-shrink: 0;
     object-fit: cover;
@@ -100,7 +100,15 @@ body::-webkit-scrollbar {
 }
 
 
-
-
-
+.vd{
+    border: 2px white;
+    overflow-y: hidden;
+    height: 100%;
+    color: aliceblue;
+    left: 0;
+    flex-shrink: 0;
+    object-fit: cover;
+    scroll-behavior: smooth;
+    margin: 0 1rem;
+}
 
